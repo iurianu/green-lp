@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<title>The Green - Bootstrap-HTML5-CSS3 Project</title>
+		<!-- META TAGS -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" >
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="author" content="Iulian Andriescu" />
+		<meta name="description" content="Personal Webpage" />
+		<meta name="keywords" content="web development, css3, html5, twitter bootstrap, bootstrap" />
+		<!-- CSS RESET -->
+		<link rel="stylesheet" type="text/css" media="all" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">	
+		<!-- CASCADE STYLE SHEETS -->
+		<link rel='stylesheet' type='text/css' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+		<link rel='stylesheet' type='text/css' href='css/style.css' />
+		<link rel='stylesheet' type='text/css' href='css/lettering.css' />
+		<!-- EXTERNAL FONTS -->
+		<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Montserrat:400,700' />		
+		<link rel='stylesheet' type='text/css' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+		<!-- FAVICON -->
+		<link rel="author" href="https://plus.google.com/103842049134044348018/" />
+		<link rel="icon" href="img/favicon.ico" type="image/ico" />
+	</head>
+	
+	<body itemscope itemtype="https://schema.org/Webpage">
+		<header class="container-fluid clearfix">
+			<div id="headerBg1" class="container" itemscope itemtype="http://schema.org/Organization">
+				<div class="col-sm-6">
+					<a href="#" rel="" itemprop="url"><img class="navbar-brand pull-right" id="logo" src="img/logo.png" alt="logo" itemprop="logo"/></a>
+				</div>
+				<div class="col-sm-4">
+					<p class="slogan-top" itemprop="description">Brand new 1 & 2 Bed Appartments <wbr>for Rent from $400 per week</p>
+				</div>
+			</div>
+		</header>
+		<main class="container-fluid clearfix" itemprop="mainContentOfPage">
+			<section id="section1" class="clearfix">
+				<div class="container">
+					<figure class="col-sm-6">
+						<img class="clip" src="img/clip1.jpg" alt="clip" itemprop="image"/>
+					</figure>
+					<div class="col-sm-6 clearfix" itemscope itemtype="https://schema.org/ContactPage">
+						<form name="register" action="register.php" method="post">
+							<fieldset>
+								<legend>
+									Register Your Interest<br />
+									<span>I would like to register my interest in the Green</span>
+								</legend>
+								<input type="text" name="name" placeholder=" Name" /><br />
+								<input type="email" name="email" placeholder=" Email" /><br />
+								<input type="tel" name="phone" placeholder=" Phone" /><br />
+								<button class="btn btn-success" type="button" name="submit">SUBMIT</button>
+							</fieldset>
+						</form>
+					<h2 itemprop="headline">Call 0413 258 954</h2>
+					</div>
+				</div>
+			</section>
+			<section id="section2" class="clearfix" itemscope itemtype="https://schema.org/Place">
+				<div class="container">
+					<h4 itemprop="additionalProperty">When convenience matters, live where you work and play.</h4>
+					<p class="description" itemprop="description">
+						Located just 1.5km to Brisbane's new King Street, you can now live within walking distance of the Brisbane
+						Showgrounds events precinct, Constance Street restaurants, bars and live music venues, Valley Metro, Brunswick Street,
+						Chinatown Mall, and James Street. Apartments feature open living spaces, well designed kitchens with European appliances,
+						stone kitchen bench tops, air conditioning and ceiling fans, high speed internet data points and energy saving lighting.
+					</p>
+				</div>
+			</section>
+			<section id="section3" class="clearfix">
+				<div class="container">
+					<i class="fa fa-sun-o"></i><br />
+					<div class="badge">
+						<h1>It's tim e to live</h1>
+					</div>
+					<h3 itemprop="headline">King Street</h3>
+					<span class="x-lines">--x--</span>
+					<p class="strong-text" itemprop="description">
+						King Street is urban regeneration on an epic scale. It's sharp and edgy residential, commercial and retail.
+						It's alive at the Brisbane Showgrounds.
+					</p>
+					<p class="light-text" itemprop="description">
+						In the heart of Bowen Hills, on the edge of Fortitude Valley and close to Brisbane's CBD, King Street reflects Lend Lease's commitment to
+						Innovation. the masterplan allows for a modern, connected and integrated precinct incorporating event, residential, commercial and retail
+						spaces. It also establishes King Street as the backbone of this eclectic neighbourhood.
+					</p>
+					<a class="btn learn-more" href="javascript:void(0)" rel="">click here to learn more</a>
+				</div>
+			</section>
+		</main>
+		<footer class="container-fluid" itemscope itemtype="https://schema.org/CreativeWork">
+			<div class="container">
+				<div class="col-sm-6">
+					<p class="copyright-text" itemscope itemtype="https://schema.org/CreativeWork">
+						Copyright &copy; <time datetime="2015" itemprop="datePublished">2015</time> <span itemprop="copyrightHolder">JHT Property Group and Land Lease Corporation</span>
+						Website designed by <span itemprop="author">Hype Creative Brisbane</span>, and developed by <span itemprop="author"><a href="http://iurianu.info/" itemprop="url">iurianu</a></span>
+					</p>
+				</div>
+				<div class="col-sm-6">
+					<img class="logo-footer" src="img/logo-footer.png" alt="logo" />
+				</div>
+			</div>
+		</footer>
+		<!-- SCRIPTS -->
+		<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type='text/javascript' src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script type='text/javascript' src="js/lettering.js"></script>
+		<script type='text/javascript'>		
+			$(document).ready(function(){
+			   $(".badge>h1").lettering();
+			});
+		</script>
+	</body>
+	
+</html><!--l>
