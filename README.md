@@ -1,11 +1,11 @@
+# Landing Page created with the Twitter Bootstrap v3.
 
-### Landing Page created with the Twitter Bootstrap framework.
-###
+## Technologies used
 
-### Technologies used:
-###
-### HTML5/CSS3/JS
-### Twitter Bootstrap
-### jQuery
+* HTML5/CSS3/JS
+* Twitter Bootstrap
+* jQuery
 
-### See the page online [here](http://iurianu.phpnet.us/green/index.html)
+<hr />
+
+> See the page online [here](https://cdn.iurianu.rocks/green-lp/l)

@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-/*HTML5 Doctor Reset v1.6.1 CSS resetr*/
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}body{line-height:1;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;}/*change colours to suit your needs*/ins{background-color:#ff9;color:#000;text-decoration:none;}/*change colours to suit your needs*/mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}del{text-decoration:line-through;}abbr[title],dfn[title]{border-bottom:1pxdotted;cursor:help;}table{border-collapse:collapse;border-spacing:0;}/*change border colour to suit your needs*/hr{display:block;height:1px;border:0;border-top:1pxsolid#cccccc;margin:1em0;padding:0;}input,select{vertical-align:middle;}main {display: block;}
-*,*:before,*:after{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;-o-box-sizing: border-box;box-sizing: border-box;}
-/* Page Styles */
-a,a:link,a:hover,a:active,a:visited,a:focus{margin-top:20px;color:#000;}
-h1{text-align:center;padding-top:10px;}
-span.detail{color:grey;padding:5px;}
-.frame{width:80%;margin:0 auto;}
-.iframe-wrapper{width:100%;height:100vw;}
-iframe{display:block;margin:10px auto;border:6px inset;}
-iframe#width1200{width:1200px;height:900px}
-iframe#width960{width:960px;height:720px;}
-iframe#width640{width:640px;height:960px;}
-iframe#width640-2{width:640px;height:480px}
-iframe#width470{width:470px;height:320px;}
-iframe#width320{width:320px;height:480px;}
-ul#navList{position:fixed;width:20%;padding:10px;margin-top:10px;float:left;list-style:none;}
-ul#navList>li{padding-bottom:35px;}
-/* CLEARFIX */.clearfix:after{content:".";clear:both;display:block;visibility:hidden;height:0;line-height:0;}
-</style>
+	<link rel='stylesheet' href="css/bootstrap.min.css" />
+	<style>
+		a,a:link,a:hover,a:active,a:visited,a:focus{margin-top:20px;color:#000;}
+		h1{text-align:center;padding-top:10px;}
+		span.detail{color:grey;padding:5px;}
+		.frame{width:80%;margin:0 auto;}
+		.iframe-wrapper{width:100%;height:100vh;}
+		iframe{display:block;margin:10px auto;border:6px inset; height: 85vh !important}
+		iframe#width1200{width:1200px;height:900px}
+		iframe#width960{width:960px;height:720px;}
+		iframe#width640{width:640px;height:960px;}
+		iframe#width640-2{width:640px;height:480px}
+		iframe#width470{width:470px;height:320px;}
+		iframe#width320{width:320px;height:480px;}
+		ul#navList{position:fixed;width:20%;padding:10px;margin-top:10px;float:left;list-style:none;}
+		ul#navList>li{padding-bottom:35px;}
+		/* CLEARFIX */.clearfix:after{content:".";clear:both;display:block;visibility:hidden;height:0;line-height:0;}
+	</style>
 </head>
 <body>
 <ul id="navList">
@@ -40,5 +37,7 @@ ul#navList>li{padding-bottom:35px;}
 	<div class="iframe-wrapper"><iframe id="width470" 	src="index.html"></iframe><h1>ANDROID			</h1></div>
 	<div class="iframe-wrapper"><iframe id="width320" 	src="index.html"></iframe><h1>IPHONE			</h1></div>
 </article>
+<script type='text/javascript' src="js/jquery.min.js"></script>
+<script type='text/javascript' src="js/bootstrap.min.js"></script>
 </body>
 </html>
