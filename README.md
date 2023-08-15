@@ -8,4 +8,4 @@
 
 <hr />
 
-> See the page online [here](https://cdn.iurianu.rocks/green-lp/l)
+> See the page online [here](https://cdn.iurianu.rocks/green-lp/)
