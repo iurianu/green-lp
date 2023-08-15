@@ -1,4 +1,4 @@
-# Landing Page created with the Twitter Bootstrap v3.
+# Landing Page with Twitter Bootstrap v3
 
 ## Technologies used
 
